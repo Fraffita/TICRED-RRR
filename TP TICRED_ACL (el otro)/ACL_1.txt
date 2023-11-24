@@ -1,0 +1,118 @@
+CABA Edificio A
+
+access-list 101 permit tcp any host 19.0.0.1 eq 53
+access-list 101 permit tcp 11.0.0.0 0.255.255.255 any eq 20
+access-list 101 permit tcp 11.0.0.0 0.255.255.255 any eq 21
+access-list 101 permit tcp any host 11.0.0.1 eq 53
+access-list 101 permit tcp any 11.0.0.0 0.0.0.255 eq 80
+access-list 101 permit tcp any 11.0.0.0 0.0.0.255 eq 443
+access-list 101 permit tcp 11.0.0.0 0.0.3.1 host 11.0.0.0 eq 443
+access-list 101 permit tcp any host 11.0.0.2 eq 23
+access-list 101 permit tcp 11.0.0.0 0.255.255.1 any eq 25
+access-list 101 permit tcp 11.0.0.0 0.255.255.1 any eq 110
+
+CABA Edificio B
+
+access-list 102 permit tcp any host 19.0.0.1 eq 53
+access-list 102 permit tcp 10.0.0.0 0.255.255.255 any eq 20
+access-list 102 permit tcp 10.0.0.0 0.255.255.255 any eq 21
+access-list 102 permit tcp any host 10.0.0.1 eq 53
+access-list 102 permit tcp any 10.0.0.0 0.0.0.255 eq 80
+access-list 102 permit tcp any 10.0.0.0 0.0.0.255 eq 443
+access-list 102 permit tcp 10.0.0.0 0.0.3.1 host 10.0.0.0 eq 443
+access-list 102 permit tcp any host 10.0.0.2 eq 23
+access-list 102 permit tcp 10.0.0.0 0.255.255.1 any eq 25
+access-list 102 permit tcp 10.0.0.0 0.255.255.1 any eq 110
+
+Rivadavia
+
+access-list 103 permit tcp any host 19.0.0.1 eq 53
+access-list 103 permit tcp 13.0.0.0 0.255.255.255 any eq 20
+access-list 103 permit tcp 13.0.0.0 0.255.255.255 any eq 21
+access-list 103 permit tcp any host 13.0.0.1 eq 53
+access-list 103 permit tcp any 13.0.0.0 0.0.0.255 eq 80
+access-list 103 permit tcp any 13.0.0.0 0.0.0.255 eq 443
+access-list 103 permit tcp 13.0.0.0 0.0.3.1 host 13.0.0.0 eq 443
+access-list 103 permit tcp any host 13.0.0.2 eq 23
+access-list 103 permit tcp 13.0.0.0 0.255.255.1 any eq 25
+access-list 103 permit tcp 13.0.0.0 0.255.255.1 any eq 110
+
+Salta
+
+access-list 104 permit tcp any host 19.0.0.1 eq 53
+access-list 104 permit tcp 17.0.0.0 0.255.255.255 any eq 20
+access-list 104 permit tcp 17.0.0.0 0.255.255.255 any eq 21
+access-list 104 permit tcp any host 17.0.0.1 eq 53
+access-list 104 permit tcp any 17.0.0.0 0.0.0.255 eq 80
+access-list 104 permit tcp any 17.0.0.0 0.0.0.255 eq 443
+access-list 104 permit tcp 17.0.0.0 0.0.3.1 host 17.0.0.0 eq 443
+access-list 104 permit tcp any host 17.0.0.2 eq 23
+access-list 104 permit tcp 17.0.0.0 0.255.255.1 any eq 25
+access-list 104 permit tcp 17.0.0.0 0.255.255.1 any eq 110
+
+Tucuman
+
+access-list 105 permit tcp any host 19.0.0.1 eq 53
+access-list 105 permit tcp 18.0.0.0 0.255.255.255 any eq 20
+access-list 105 permit tcp 18.0.0.0 0.255.255.255 any eq 21
+access-list 105 permit tcp any host 18.0.0.1 eq 53
+access-list 105 permit tcp any 18.0.0.0 0.0.0.255 eq 80
+access-list 105 permit tcp any 18.0.0.0 0.0.0.255 eq 443
+access-list 105 permit tcp 18.0.0.0 0.0.3.1 host 18.0.0.0 eq 443
+access-list 105 permit tcp any host 18.0.0.2 eq 23
+access-list 105 permit tcp 18.0.0.0 0.255.255.1 any eq 25
+access-list 105 permit tcp 18.0.0.0 0.255.255.1 any eq 110
+
+Córdoba
+
+access-list 106 permit tcp any host 19.0.0.1 eq 53
+access-list 106 permit tcp 14.0.0.0 0.255.255.255 any eq 20
+access-list 106 permit tcp 14.0.0.0 0.255.255.255 any eq 21
+access-list 106 permit tcp any host 14.0.0.1 eq 53
+access-list 106 permit tcp any 14.0.0.0 0.0.0.255 eq 80
+access-list 106 permit tcp any 14.0.0.0 0.0.0.255 eq 443
+access-list 106 permit tcp 14.0.0.0 0.0.3.1 host 14.0.0.0 eq 443
+access-list 106 permit tcp any host 14.0.0.2 eq 23
+access-list 106 permit tcp 14.0.0.0 0.255.255.1 any eq 25
+access-list 106 permit tcp 14.0.0.0 0.255.255.1 any eq 110
+
+
+Santa Fe
+
+access-list 107 permit tcp any host 19.0.0.1 eq 53
+access-list 107 permit tcp 16.0.0.0 0.255.255.255 any eq 20
+access-list 107 permit tcp 16.0.0.0 0.255.255.255 any eq 21
+access-list 107 permit tcp any host 16.0.0.1 eq 53
+access-list 107 permit tcp any 16.0.0.0 0.0.0.255 eq 80
+access-list 107 permit tcp any 16.0.0.0 0.0.0.255 eq 443
+access-list 107 permit tcp 16.0.0.0 0.0.3.1 host 16.0.0.0 eq 443
+access-list 107 permit tcp any host 16.0.0.2 eq 23
+access-list 107 permit tcp 16.0.0.0 0.255.255.1 any eq 25
+access-list 107 permit tcp 16.0.0.0 0.255.255.1 any eq 110
+
+
+Rosario
+
+access-list 108 permit tcp any host 19.0.0.1 eq 53
+access-list 108 permit tcp 15.0.0.0 0.255.255.255 any eq 20
+access-list 108 permit tcp 15.0.0.0 0.255.255.255 any eq 21
+access-list 108 permit tcp any host 15.0.0.1 eq 53
+access-list 108 permit tcp any 15.0.0.0 0.0.0.255 eq 80
+access-list 108 permit tcp any 15.0.0.0 0.0.0.255 eq 443
+access-list 108 permit tcp 15.0.0.0 0.0.3.1 host 15.0.0.0 eq 443
+access-list 108 permit tcp any host 15.0.0.2 eq 23
+access-list 108 permit tcp 15.0.0.0 0.255.255.1 any eq 25
+access-list 108 permit tcp 15.0.0.0 0.255.255.1 any eq 110
+
+La Plata
+
+access-list 109 permit tcp any host 19.0.0.1 eq 53
+access-list 109 permit tcp 12.0.0.0 0.255.255.255 any eq 20
+access-list 109 permit tcp 12.0.0.0 0.255.255.255 any eq 21
+access-list 109 permit tcp any host 12.0.0.1 eq 53
+access-list 109 permit tcp any 12.0.0.0 0.0.0.255 eq 80
+access-list 109 permit tcp any 12.0.0.0 0.0.0.255 eq 443
+access-list 109 permit tcp 12.0.0.0 0.0.3.1 host 12.0.0.0 eq 443
+access-list 109 permit tcp any host 12.0.0.2 eq 23
+access-list 109 permit tcp 12.0.0.0 0.255.255.1 any eq 25
+access-list 109 permit tcp 12.0.0.0 0.255.255.1 any eq 110
